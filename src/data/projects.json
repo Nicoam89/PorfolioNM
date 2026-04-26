@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Proyecto 1",
+    "description": "Descripción breve del proyecto. Qué problema resuelve y qué tecnologías usaste.",
+    "tech": ["React", "Node.js", "MongoDB"],
+    "github": "https://github.com/",
+    "demo": ""
+  },
+  {
+    "id": "2",
+    "title": "Proyecto 2",
+    "description": "Otro proyecto destacado. Podés agregar todos los que quieras.",
+    "tech": ["React", "Express", "Tailwind"],
+    "github": "https://github.com/",
+    "demo": ""
+  }
+]
