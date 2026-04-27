@@ -2,56 +2,48 @@ import projects from '../../data/projects.json'
 
 function Projects() {
   return (
-    <section id="projects" className="bg-slate-800 py-24">
-      <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-white mb-2">Proyectos</h2>
-        <div className="w-12 h-1 bg-blue-400 mb-12 rounded" />
+    <section id="projects" className="projects-section section">
+      <div className="container">
+        <h2 className="section__title">Proyectos</h2>
+        <div className="section__divider" />
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="projects-grid">
           {projects.map((project) => (
-            <div
-              key={project.id}
-              className="bg-slate-700/50 border border-slate-600 hover:border-blue-400/50 rounded-xl p-6 transition-colors duration-300"
-            >
-              <h3 className="text-white font-bold text-xl mb-2">{project.title}</h3>
-              <p className="text-slate-400 text-sm leading-relaxed mb-4">
-                {project.description}
-              </p>
+            <article key={project.id} className="project-card">
+              <h3 className="project-card__title">{project.title}</h3>
+              <p className="project-card__description">{project.description}</p>
 
-              <div className="flex flex-wrap gap-2 mb-6">
+              <div className="project-card__tech-list">
                 {project.tech.map((t) => (
-                  <span
-                    key={t}
-                    className="bg-blue-900/40 text-blue-300 text-xs font-mono px-2 py-1 rounded"
-                  >
+                  <span key={t} className="project-card__tech">
                     {t}
                   </span>
                 ))}
               </div>
 
-              <div className="flex gap-4">
+              <div className="project-card__links">
                 {project.github && (
-                    <a
+                  <a
                     href={project.github}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-slate-400 hover:text-white text-sm transition-colors"
+                    className="project-card__link"
                   >
                     GitHub →
                   </a>
                 )}
                 {project.demo && (
-                   <a 
+                  <a
                     href={project.demo}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-blue-400 hover:text-blue-300 text-sm transition-colors"
+                    className="project-card__link project-card__link--accent"
                   >
                     Demo →
                   </a>
                 )}
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

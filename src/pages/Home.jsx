@@ -16,8 +16,8 @@ function Home() {
         <Projects />
         <Contact />
       </main>
-      <footer className="bg-slate-900 border-t border-slate-800 py-6 text-center text-slate-500 text-sm">
-        Hecho con React + Tailwind · {new Date().getFullYear()}
+      <footer className="site-footer">
+        Hecho con React + Sass · {new Date().getFullYear()}
       </footer>
     </>
   )
