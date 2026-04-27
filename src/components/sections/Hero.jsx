@@ -4,10 +4,9 @@ function Hero() {
       <div className="container hero-section__content">
         <p className="hero-section__intro">Hola, mi nombre es</p>
         <h1 className="hero-section__title">Nicolas Ariel Martin</h1>
-        <h2 className="hero-section__subtitle">Fullstack Developer</h2>
+        <h2 className="hero-section__subtitle">Business Process Automation Developer</h2>
         <p className="hero-section__description">
-          Construyo aplicaciones web modernas con el stack MERN. Apasionado por
-          el código limpio y las buenas experiencias de usuario.
+          Automatizo procesos a medida utilizando las herramientaas adecuadas para cada caso y siempre con un enfoque en la integridad de la solucion.
         </p>
         <div className="hero-section__actions">
           <a href="#projects" className="button button--primary">

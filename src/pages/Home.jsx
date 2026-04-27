@@ -9,6 +9,8 @@ function Home() {
   return (
     <>
       <Navbar />
+      <br />
+      <br />
       <main>
         <Hero />
         <About />

@@ -64,6 +64,7 @@ a {
   border-radius: 0.625rem;
   font-weight: 600;
   transition: all 0.2s ease;
+  
 
   &--primary {
     background: var(--accent-strong);
@@ -77,6 +78,7 @@ a {
   &--outline {
     border: 1px solid var(--text-secondary);
     color: var(--text-secondary);
+    
 
     &:hover {
       border-color: var(--text-primary);

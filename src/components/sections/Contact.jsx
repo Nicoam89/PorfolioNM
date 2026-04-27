@@ -14,11 +14,11 @@ function Contact() {
           <div className="contact-list">
             <a href="mailto:tu@email.com" className="contact-item">
               <span className="contact-item__icon">@</span>
-              tu@email.com
+              nico.am89@gmail.com
             </a>
 
             <a
-              href="https://linkedin.com/in/tuperfil"
+              href="https://www.linkedin.com/in/nicolas-ariel-martin/"
               target="_blank"
               rel="noreferrer"
               className="contact-item"
@@ -28,7 +28,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://github.com/tuusuario"
+              href="https://github.com/Nicoam89"
               target="_blank"
               rel="noreferrer"
               className="contact-item"

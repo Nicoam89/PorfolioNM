@@ -8,13 +8,10 @@ function About() {
         <div className="about-section__grid">
           <div>
             <p className="about-section__text">
-              Soy un desarrollador fullstack con experiencia en el stack MERN
-              (MongoDB, Express, React, Node.js). Me enfoco en construir
-              productos completos, desde la base de datos hasta la interfaz.
+              Soy un desarrollador fullstack con experiencia en el stack MERN (MongoDB, Express, React, Node.js). Me enfoco en construir productos completos, desde la base de datos hasta la interfaz.
             </p>
             <p className="about-section__text">
-              Cuando no estoy programando, estoy aprendiendo algo nuevo o
-              contribuyendo a proyectos que me parecen interesantes.
+              Siempre estoy aprendiendo algo nuevo o contribuyendo a proyectos que me parecen interesantes.
             </p>
           </div>
 

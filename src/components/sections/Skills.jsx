@@ -1,4 +1,12 @@
 const skillGroups = [
+    {
+    category: 'Automatizacion',
+    skills: ['n8n', 'Make', 'Power Query', 'Workflows'],
+  },
+   {
+    category: 'Gestion',
+    skills: ['Gestión de proyectos','Dashboards', 'Power BI', 'Excel'],
+  },
   {
     category: 'Frontend',
     skills: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
