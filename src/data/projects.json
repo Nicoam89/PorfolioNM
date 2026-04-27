@@ -19,15 +19,13 @@
     "id": "3",
     "title": "Sistema de Consolidacion de Listados de Precios",
     "description": "Desarrollé un sistema para consolidar listados de precios de múltiples representaciones.\n\nProblema:\nCada proveedor entrega archivos con formatos distintos, lo que hacía el proceso manual lento y propenso a errores.\n\nSolución:\n\nEstandarización automática de archivos Excel\nCruce con coeficientes de cotización\nGeneración de listados finales listos para usar\n\nTecnologías:\n\nProcesamiento de datos (Excel / lógica de negocio)\n\nImpacto:\n\nReducción del tiempo de procesamiento\nMayor consistencia en las cotizaciones",
-    "tech": ["Excel", "Power Query"],
-    "github": "https://github.com/Nicoam89/Solicitud_Vacaciones",
-    "demo": "https://solicitud-vacaciones.vercel.app/"
+    "tech": ["Excel", "Power Query"]
   },
     {  "id": "4",
     "title": "Implementación del Chatbot de Atención al Cliente",
     "description": "Lideré la implementación de un chatbot de atención al cliente, utilizando Tidio, con el objetivo de automatizar consultas frecuentes y mejorar los tiempos de respuesta.\n\nProblema:\nEl equipo de atención recibía un alto volumen de consultas repetitivas, lo que generaba demoras y carga operativa.\n\nMi rol:\n\n* Definición de flujos conversacionales según necesidades del negocio\n* Coordinación con equipos internos\n* Configuración e implementación del chatbot\n\nResultado:\n\n* Respuestas más rápidas para los clientes\n* Reducción de tareas manuales en el equipo de atención\n\nPróximo paso: incorporar IA para mejorar la interpretación de consultas y la personalización de respuestas.",
     "tech": ["Gestión de proyectos", "Flujos de negocio", "Transformación digital"],
-      "demo": "https://solicitud-vacaciones.vercel.app/"
+      "demo": "https://analytical.com"
   }
   
 ]
