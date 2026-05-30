@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import projects from '../../data/projects.json'
 
 const projectImages = import.meta.glob('../../assets/*', {
@@ -6,6 +7,16 @@ const projectImages = import.meta.glob('../../assets/*', {
 })
 
 function Projects() {
+  const [activeSlides, setActiveSlides] = useState({})
+
+  const updateSlide = (projectId, direction, total) => {
+    setActiveSlides((prev) => {
+      const currentIndex = prev[projectId] ?? 0
+      const nextIndex = (currentIndex + direction + total) % total
+      return { ...prev, [projectId]: nextIndex }
+    })
+  }
+
   return (
     <section id="projects" className="projects-section section">
       <div className="container">
@@ -14,19 +25,60 @@ function Projects() {
 
         <div className="projects-grid">
           {projects.map((project) => {
-            const imageSrc = project.image
-              ? projectImages[`../../assets/${project.image}`]
-              : null
+            const imageList = (project.images || [])
+              .map((name) => projectImages[`../../assets/${name}`])
+              .filter(Boolean)
+            const currentIndex = activeSlides[project.id] ?? 0
+            const currentImage = imageList[currentIndex]
 
             return (
               <article key={project.id} className="project-card">
-                {imageSrc && (
-                  <img
-                    src={imageSrc}
-                    alt={`Vista previa de ${project.title}`}
-                    className="project-card__image"
-                    loading="lazy"
-                  />
+                {currentImage && (
+                  <div className="project-card__carousel">
+                    <img
+                      src={currentImage}
+                      alt={`Vista ${currentIndex + 1} de ${project.title}`}
+                      className="project-card__image"
+                      loading="lazy"
+                    />
+
+                    {imageList.length > 1 && (
+                      <>
+                        <button
+                          type="button"
+                          className="project-card__nav project-card__nav--prev"
+                          onClick={() => updateSlide(project.id, -1, imageList.length)}
+                          aria-label={`Imagen anterior de ${project.title}`}
+                        >
+                          ‹
+                        </button>
+                        <button
+                          type="button"
+                          className="project-card__nav project-card__nav--next"
+                          onClick={() => updateSlide(project.id, 1, imageList.length)}
+                          aria-label={`Imagen siguiente de ${project.title}`}
+                        >
+                          ›
+                        </button>
+
+                        <div className="project-card__dots">
+                          {imageList.map((_, index) => (
+                            <button
+                              key={`${project.id}-${index}`}
+                              type="button"
+                              className={`project-card__dot ${
+                                index === currentIndex ? 'project-card__dot--active' : ''
+                              }`}
+                              onClick={() =>
+                                setActiveSlides((prev) => ({ ...prev, [project.id]: index }))
+                              }
+                              aria-label={`Ir a imagen ${index + 1} de ${project.title}`}
+                            />
+                          ))}
+                        </div>
+                      </>
+                    )}
+                  </div>
                 )}
 
                 <h3 className="project-card__title">{project.title}</h3>
