@@ -8,16 +8,16 @@ function About() {
         <div className="about-section__grid">
           <div>
             <p className="about-section__text">
-              Soy desarrollador fullstack especializado en el stack MERN (MongoDB, Express, React y Node.js), enfocado en construir soluciones completas que conectan la lógica de negocio con experiencias de usuario claras y eficientes.
+              Soy Business & Funcional Analyst con experiencia en análisis de procesos, reporting de gestión, automatización y soluciones digitales.
             </p>
               <p className="about-section__text">
-              Actualmente trabajo como analista de negocios, lo que me permite entender no solo el código, sino también los procesos detrás de cada sistema. Esto me ayuda a desarrollar aplicaciones que realmente resuelven problemas y generan impacto.
+              Mi perfil combina visión de negocio, experiencia en control de gestión y conocimientos técnicos en BI, SQL, SAP Business One, automatización y desarrollo web. Esto me permite relevar necesidades con usuarios, traducirlas en requerimientos claros y acompañar la implementación de soluciones junto a equipos técnicos.
             </p>
             <p className="about-section__text">
-              Me interesa especialmente la automatización de procesos y la implementación de soluciones con inteligencia artificial, como chatbots y herramientas que optimizan la atención al cliente.
+              Me especializo en transformar procesos manuales o poco estructurados en soluciones más eficientes, trazables y orientadas a datos, mediante documentación funcional, definición de KPIs, automatización de workflows y tableros de control.
             </p>
               <p className="about-section__text">
-              Disfruto llevar una idea desde cero hasta producción, cuidando tanto la arquitectura como la experiencia del usuario final.
+              Actualmente estoy orientando mi carrera hacia roles de Analista Funcional / Business Analyst, con foco en mejora de procesos, transformación digital e integración entre negocio e IT.
             </p>
               <p className="about-section__text">
               Siempre estoy aprendiendo, experimentando con nuevas tecnologías y construyendo proyectos que me desafíen.

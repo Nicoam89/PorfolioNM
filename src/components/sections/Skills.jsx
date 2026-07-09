@@ -1,7 +1,11 @@
 const skillGroups = [
     {
     category: 'Automatizacion',
-    skills: ['n8n', 'Make', 'Power Query', 'Workflows'],
+    skills: ['n8n', 'Make', 'Power Query', 'Workflows', 'KNIME'],
+  },
+    {
+    category: 'Procesos',
+    skills: ['BPMN', 'IA'],
   },
    {
     category: 'Gestion',
@@ -13,7 +17,7 @@ const skillGroups = [
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Express', 'REST APIs'],
+    skills: ['Node.js', 'Express', 'REST APIs', 'Docker'],
   },
   {
     category: 'Base de datos',

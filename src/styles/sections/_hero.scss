@@ -27,6 +27,13 @@
     font-weight: 600;
   }
 
+    &__subtitle2 {
+    margin: 0.5rem 0 0;
+    color: $accent;
+    font-size: clamp(1rem, 3vw, 2rem);
+    font-weight: 600;
+  }
+
   &__description {
     margin: 1.5rem 0 0;
     color: $text-secondary;

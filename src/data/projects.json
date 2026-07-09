@@ -5,7 +5,6 @@
     "description": "Desarrollé desde cero un Dashboard Web interno que permite centralizar y consultar los principales indicadores del negocio de forma ágil, unificando la información en un único punto de acceso y reduciendo la dependencia de reportes manuales.\n\nEl objetivo es mejorar la visibilidad de gestión, optimizar tiempos de análisis y sentar una base para futuras integraciones.\n\nConsiste de:\n- Un Login, para mantener la información segura.\n- Una Base de Datos, en este caso un Excel, pero puede ser cualquier base de datos.\n- Un Tablero Responsive con todos los principales indicadores del negocio, con vistas de MTD y YTD.\n\nSe puede customizar de acuerdo a las necesidades.",
     "tech": ["React", "Node.js", "MongoDB", "KPI", "Dashboards"],
     "github": "https://github.com/Nicoam89/KPI_Dashboard",
-    "demo": "",
     "images": ["Dashboard-web (1).png", "Dashboard-web (2).png"]
   },
   {
@@ -25,8 +24,11 @@
   {
     "id": "3",
     "title": "Sistema de Consolidacion de Listados de Precios",
-    "description": "Desarrollé un sistema para consolidar listados de precios de múltiples representaciones.\n\nProblema:\nCada proveedor entrega archivos con formatos distintos, lo que hacía el proceso manual lento y propenso a errores.\n\nSolución:\n\nEstandarización automática de archivos Excel\nCruce con coeficientes de cotización\nGeneración de listados finales listos para usar\n\nTecnologías:\n\nProcesamiento de datos (Excel / lógica de negocio)\n\nImpacto:\n\nReducción del tiempo de procesamiento\nMayor consistencia en las cotizaciones",
-    "tech": ["Excel", "Power Query"]
+    "description": "Desarrollé un sistema para consolidar listados de precios de múltiples representaciones.\n\nProblema:\nCada proveedor entrega archivos con formatos distintos, lo que hacía el proceso manual lento y propenso a errores.\n\nSolución:\n\nEstandarización automática de archivos Excel\nCruce con coeficientes de cotización via KNIME \nGeneración de listados finales listos para usar\n\nTecnologías:\n\nProcesamiento de datos (KNIME / Excel / lógica de negocio)\n\nImpacto:\n\nReducción del tiempo de procesamiento\nMayor consistencia en las cotizaciones",
+    "tech": ["KNIME", "Excel", "Power Query"],
+       "images": [
+      "Precios.png"
+    ]
   },
   {
     "id": "4",
