@@ -8,19 +8,19 @@ function About() {
         <div className="about-section__grid">
           <div>
             <p className="about-section__text">
-              Soy Business & Funcional Analyst con experiencia en análisis de procesos, reporting de gestión, automatización y soluciones digitales.
+              Soy Business & Functional Analyst con experiencia en relevamiento de necesidades, análisis de procesos, documentación funcional, reporting de gestión, automatización y soluciones digitales.
             </p>
               <p className="about-section__text">
-              Mi perfil combina visión de negocio, experiencia en control de gestión y conocimientos técnicos en BI, SQL, SAP Business One, automatización y desarrollo web. Esto me permite relevar necesidades con usuarios, traducirlas en requerimientos claros y acompañar la implementación de soluciones junto a equipos técnicos.
+              Mi perfil combina visión de negocio, experiencia en control de gestión y conocimientos técnicos en BI, SQL, SAP Business One, automatización y desarrollo web. Esto me permite conversar con stakeholders, entender dolores operativos, traducirlos en requerimientos claros y acompañar la implementación junto a equipos técnicos.
             </p>
             <p className="about-section__text">
-              Me especializo en transformar procesos manuales o poco estructurados en soluciones más eficientes, trazables y orientadas a datos, mediante documentación funcional, definición de KPIs, automatización de workflows y tableros de control.
+              Me especializo en transformar procesos manuales o poco estructurados en soluciones más eficientes, trazables y orientadas a datos mediante historias de usuario, criterios de aceptación, documentación AS-IS / TO-BE, definición de KPIs, automatización de workflows y tableros de control.
             </p>
               <p className="about-section__text">
-              Actualmente estoy orientando mi carrera hacia roles de Analista Funcional / Business Analyst, con foco en mejora de procesos, transformación digital e integración entre negocio e IT.
+              Actualmente enfoco mi carrera en roles de Analista Funcional / Business Analyst, con foco en mejora de procesos, transformación digital, integraciones y puente entre negocio e IT.
             </p>
               <p className="about-section__text">
-              Siempre estoy aprendiendo, experimentando con nuevas tecnologías y construyendo proyectos que me desafíen.
+              Busco aportar claridad, orden y seguimiento: desde el relevamiento inicial hasta la validación de la solución, cuidando que cada entrega responda a una necesidad real del negocio.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ function About() {
                 value: 'Freelance / Relación de dependencia',
               },
               { label: 'Idiomas', value: 'Español, Inglés' },
-              { label: 'Enfoque', value: 'Automatizacion de Procesos' },
+              { label: 'Enfoque', value: 'Análisis funcional y mejora de procesos' },
             ].map((item) => (
                             <div key={item.label} className="about-card">
                 <span className="about-card__dot" aria-hidden="true" />

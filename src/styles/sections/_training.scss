@@ -1,0 +1,68 @@
+.training-section {
+  background: $bg-secondary;
+
+  &__intro {
+    max-width: 44rem;
+    margin: 0 0 2rem;
+    color: $text-secondary;
+    line-height: 1.7;
+  }
+}
+
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.training-card {
+  background: $bg-card;
+  border: 1px solid $border-primary;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+
+  &__title {
+    margin: 0 0 1rem;
+    color: $accent;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.875rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.625rem;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  &__check {
+    color: $accent;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .training-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .training-grid {
+    grid-template-columns: 1fr;
+  }
+}

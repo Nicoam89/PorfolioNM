@@ -4,6 +4,7 @@ const links = [
   { label: 'Inicio', href: '#hero' },
   { label: 'Sobre mí', href: '#about' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Formación', href: '#training' },
   { label: 'Proyectos', href: '#projects' },
   { label: 'Contacto', href: '#contact' },
 ]

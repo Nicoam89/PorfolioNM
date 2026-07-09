@@ -7,12 +7,12 @@ function Contact() {
 
         <div className="contact-section__content">
           <p className="contact-section__text">
-            ¿Tenés un proyecto en mente o querés trabajar juntos? Escribime y
-            te respondo a la brevedad.
+            ¿Necesitás ordenar un proceso, relevar requerimientos o transformar una necesidad de negocio en una solución implementable? Escribime y
+            conversemos cómo puedo ayudarte.
           </p>
 
           <div className="contact-list">
-            <a href="mailto:tu@email.com" className="contact-item">
+            <a href="mailto:nico.am89@gmail.com" className="contact-item">
               <span className="contact-item__icon">@</span>
               nico.am89@gmail.com
             </a>
@@ -38,7 +38,7 @@ function Contact() {
             </a>
           </div>
         </div>
-      </div>
+        </div>
     </section>
   )
 }

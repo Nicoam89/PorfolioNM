@@ -1,31 +1,27 @@
 const skillGroups = [
-    {
-    category: 'Automatizacion',
-    skills: ['n8n', 'Make', 'Power Query', 'Workflows', 'KNIME'],
+  {
+    category: 'Análisis funcional',
+    skills: ['Relevamiento', 'Historias de usuario', 'Criterios de aceptación', 'Documentación funcional'],
   },
-    {
+  {
     category: 'Procesos',
-    skills: ['BPMN', 'IA'],
-  },
-   {
-    category: 'Gestion',
-    skills: ['Gestión de proyectos','Dashboards', 'Power BI', 'Excel'],
+    skills: ['AS-IS / TO-BE', 'BPMN', 'Mejora continua', 'KPIs'],
   },
   {
-    category: 'Frontend',
-    skills: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
+    category: 'Datos y BI',
+    skills: ['Power BI', 'SQL', 'Excel', 'Power Query', 'Dashboards'],
   },
   {
-    category: 'Backend',
-    skills: ['Node.js', 'Express', 'REST APIs', 'Docker'],
+    category: 'Automatización',
+    skills: ['n8n', 'Make', 'Workflows', 'KNIME', 'IA aplicada'],
   },
   {
-    category: 'Base de datos',
-    skills: ['MongoDB', 'Mongoose', 'SQL'],
+    category: 'Gestión y colaboración',
+    skills: ['Stakeholders', 'Priorización', 'UAT', 'Gestión de proyectos'],
   },
   {
-    category: 'Herramientas',
-    skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'Vite'],
+    category: 'Tecnología',
+    skills: ['React', 'Node.js', 'REST APIs', 'SAP Business One', 'Git'],
   },
 ]
 

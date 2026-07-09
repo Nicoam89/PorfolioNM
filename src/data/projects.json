@@ -1,17 +1,34 @@
 [
   {
     "id": "1",
-    "title": "Dashboard Main KPI WEB",
-    "description": "Desarrollé desde cero un Dashboard Web interno que permite centralizar y consultar los principales indicadores del negocio de forma ágil, unificando la información en un único punto de acceso y reduciendo la dependencia de reportes manuales.\n\nEl objetivo es mejorar la visibilidad de gestión, optimizar tiempos de análisis y sentar una base para futuras integraciones.\n\nConsiste de:\n- Un Login, para mantener la información segura.\n- Una Base de Datos, en este caso un Excel, pero puede ser cualquier base de datos.\n- Un Tablero Responsive con todos los principales indicadores del negocio, con vistas de MTD y YTD.\n\nSe puede customizar de acuerdo a las necesidades.",
-    "tech": ["React", "Node.js", "MongoDB", "KPI", "Dashboards"],
+    "title": "Dashboard de KPIs para gestión del negocio",
+    "description": "Caso funcional orientado a centralizar indicadores clave del negocio en un único tablero web interno.\n\nMi rol:\n- Relevar necesidades de información y frecuencia de consulta.\n- Definir KPIs, vistas MTD / YTD y criterios de visualización.\n- Traducir el requerimiento en una solución web con login, base de datos y tablero responsive.\n\nImpacto:\n- Menor dependencia de reportes manuales.\n- Mayor visibilidad para la toma de decisiones.\n- Base preparada para futuras integraciones con fuentes de datos.",
+    "tech": [
+      "Relevamiento",
+      "KPIs",
+      "Dashboards",
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
     "github": "https://github.com/Nicoam89/KPI_Dashboard",
-    "images": ["Dashboard-web (1).png", "Dashboard-web (2).png"]
+    "images": [
+      "Dashboard-web (1).png",
+      "Dashboard-web (2).png"
+    ]
   },
   {
     "id": "2",
-    "title": "Workflow de Aprobacion Automatico de Vacaciones",
-    "description": "Armé un sistema de aprobación de vacaciones 100% automatizado con Make, Google Sheets y Gmail.\n\n🔹 El empleado completa su solicitud en una web simple\n🔹 El sistema valida que esté en la base de datos y calcula los días automáticamente\n🔹 El jefe recibe un email con dos botones: ✅ Aprobar o ❌ Rechazar\n🔹 Con un solo clic, el estado se actualiza en la base de datos y el empleado recibe la respuesta\n\nTodo sin apps de terceros, sin fricción.",
-    "tech": ["React", "Express", "Tailwind", "Make"],
+    "title": "Workflow automático de aprobación de vacaciones",
+    "description": "Automatización de un proceso administrativo de solicitud, validación y aprobación de vacaciones usando Make, Google Sheets, Gmail y una web simple.\n\nMi rol:\n- Mapear el flujo AS-IS / TO-BE y reglas de negocio.\n- Definir validaciones, estados y comunicaciones automáticas.\n- Implementar el circuito de aprobación con trazabilidad de punta a punta.\n\nImpacto:\n- Menos tareas manuales y menor fricción para empleados y jefes.\n- Estados actualizados automáticamente en la base.\n- Respuesta inmediata al solicitante luego de la aprobación o rechazo.",
+    "tech": [
+      "AS-IS / TO-BE",
+      "Reglas de negocio",
+      "Make",
+      "React",
+      "Express",
+      "Google Sheets"
+    ],
     "github": "https://github.com/Nicoam89/Solicitud_Vacaciones",
     "demo": "https://solicitud-vacaciones.vercel.app/",
     "images": [
@@ -23,19 +40,33 @@
   },
   {
     "id": "3",
-    "title": "Sistema de Consolidacion de Listados de Precios",
-    "description": "Desarrollé un sistema para consolidar listados de precios de múltiples representaciones.\n\nProblema:\nCada proveedor entrega archivos con formatos distintos, lo que hacía el proceso manual lento y propenso a errores.\n\nSolución:\n\nEstandarización automática de archivos Excel\nCruce con coeficientes de cotización via KNIME \nGeneración de listados finales listos para usar\n\nTecnologías:\n\nProcesamiento de datos (KNIME / Excel / lógica de negocio)\n\nImpacto:\n\nReducción del tiempo de procesamiento\nMayor consistencia en las cotizaciones",
-    "tech": ["KNIME", "Excel", "Power Query"],
-       "images": [
+    "title": "Consolidación de listados de precios",
+    "description": "Solución para estandarizar y consolidar listados de precios de múltiples proveedores con formatos diferentes.\n\nProblema:\nCada proveedor enviaba archivos distintos, lo que hacía el proceso lento, manual y propenso a errores.\n\nMi rol:\n- Analizar formatos de entrada, excepciones y reglas de cotización.\n- Diseñar un flujo de normalización y cruce de coeficientes.\n- Generar salidas consistentes listas para uso comercial.\n\nImpacto:\n- Reducción del tiempo de procesamiento.\n- Mayor consistencia en cotizaciones.\n- Proceso más trazable y fácil de mantener.",
+    "tech": [
+      "KNIME",
+      "Excel",
+      "Power Query",
+      "Reglas de negocio",
+      "Normalización de datos"
+    ],
+    "images": [
       "Precios.png"
     ]
   },
   {
     "id": "4",
-    "title": "Implementación del Chatbot de Atención al Cliente",
-    "description": "Lideré la implementación de un chatbot de atención al cliente, utilizando Tidio, con el objetivo de automatizar consultas frecuentes y mejorar los tiempos de respuesta.\n\nProblema:\nEl equipo de atención recibía un alto volumen de consultas repetitivas, lo que generaba demoras y carga operativa.\n\nMi rol:\n\n* Definición de flujos conversacionales según necesidades del negocio\n* Coordinación con equipos internos\n* Configuración e implementación del chatbot\n\nResultado:\n\n* Respuestas más rápidas para los clientes\n* Reducción de tareas manuales en el equipo de atención\n\nPróximo paso: incorporar IA para mejorar la interpretación de consultas y la personalización de respuestas.",
-    "tech": ["Gestión de proyectos", "Flujos de negocio", "Transformación digital"],
+    "title": "Chatbot de atención al cliente",
+    "description": "Implementación de un chatbot para automatizar consultas frecuentes y mejorar los tiempos de respuesta del equipo de atención.\n\nMi rol:\n- Relevar preguntas frecuentes, casos de uso y necesidades del negocio.\n- Definir flujos conversacionales y criterios de derivación.\n- Coordinar con equipos internos la configuración, pruebas y puesta en marcha.\n\nImpacto:\n- Respuestas más rápidas para clientes.\n- Menor carga operativa por consultas repetitivas.\n- Base funcional para incorporar IA y mejorar la personalización.",
+    "tech": [
+      "Relevamiento",
+      "Flujos conversacionales",
+      "UAT",
+      "Gestión de proyectos",
+      "Transformación digital"
+    ],
     "demo": "https://analytical.com",
-    "images": ["chatbot.png"]
+    "images": [
+      "chatbot.png"
+    ]
   }
 ]
