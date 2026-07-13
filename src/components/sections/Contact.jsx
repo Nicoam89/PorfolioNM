@@ -18,6 +18,16 @@ function Contact() {
             </a>
 
             <a
+              href="https://wa.me/5491140584764"
+              target="_blank"
+              rel="noreferrer"
+              className="contact-item"
+            >
+              <span className="contact-item__icon">wa</span>
+              WhatsApp
+            </a>
+
+            <a
               href="https://www.linkedin.com/in/nicolas-ariel-martin/"
               target="_blank"
               rel="noreferrer"
@@ -38,7 +48,7 @@ function Contact() {
             </a>
           </div>
         </div>
-        </div>
+      </div>
     </section>
   )
 }
